@@ -1,0 +1,3 @@
+[submodule "lib/Minic"]
+	path = lib/Minic
+	url = git@github.com:vovagorodok/Minic.git
