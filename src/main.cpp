@@ -73,8 +73,15 @@ void finalize() {
    {                \
       bool ret = x; \
       finalize();   \
-      return ret;   \
+      return;   \
    }
+
+// #define RETURN(x)   \
+//    {                \
+//       bool ret = x; \
+//       finalize();   \
+//       return ret;   \
+//    }
 
 #ifdef __EMSCRIPTEN__
 #include <emscripten/emscripten.h>
